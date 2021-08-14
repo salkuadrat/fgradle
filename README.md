@@ -43,6 +43,15 @@ Your build will be a lot slower after you change distributionUrl to latest versi
 
 ![](3.png)
 
+You also need to change gradle dependencies at file android/gradle.build to the latest Android Gradle Plugin version.\
+You can check the latest Android Gradle Plugin version [here](https://developer.android.com/studio/releases/gradle-plugin) and [here](https://developer.android.com/reference/tools/gradle-api?hl=BG).
+
+![](4.png)
+
+See current release.
+
+![](5.png)
+
 # Step 4
 
 To easily monitor the process of gradle build and detect when it's stuck. Always use -v when you build from command line.
