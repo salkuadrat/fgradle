@@ -43,3 +43,22 @@ Your build will be a lot slower after you change distributionUrl to latest versi
 
 ![](3.png)
 
+# Step 4
+
+To easily monitor the process of gradle build and detect when it's stuck. Always use -v when you build from command line.
+
+```
+$ flutter run -v
+```
+
+```
+$ flutter run --profile -v
+```
+
+```
+$ flutter run --release -v
+```
+
+```
+$ flutter build apk --split-per-abi -v
+```
