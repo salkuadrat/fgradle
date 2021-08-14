@@ -10,7 +10,7 @@ Change default minSdkVersion at file android/app/build.gradle from 16 to 21
 
 ## Step 2
 
-Change default Gradle properties that you can find at file android/gradle.properties.\
+Change default Gradle properties at file android/gradle.properties.\
 The value of 4096 will depends on your RAM. You can change to 3096 or 2048 for lower RAM.\
 The value 512m also depends on your RAM. You can change to 1024m if you have enough RAM to spare.
 
