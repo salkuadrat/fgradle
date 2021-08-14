@@ -37,7 +37,7 @@ android.enableJetifier=true
 ## Step 3
 
 Change the default distributionUrl at file android/gradle/wrapper/gradle-wrapper.properties to the latest version.\
-You can check the latest gradle version from [this link](https://gradle.org/releases/).
+You can check the latest gradle version at [this link](https://gradle.org/releases/).
 
 Your build will be a lot slower after you change distributionUrl to latest version, because it needs to download the latest gradle file. But it will be faster at your next build.
 
