@@ -23,13 +23,19 @@ Here is the copy paste version:
 org.gradle.daemon=true
 
 # Try and findout the best heap size for your project build.
-org.gradle.jvmargs=-Xmx4096m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+org.gradle.jvmargs=-Xmx4g -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
 
 # Modularise your project and enable parallel build
 org.gradle.parallel=true
 
 # Enable configure on demand.
 org.gradle.configureondemand=true
+
+# Enable Build Cache
+android.enableBuildCache=true
+
+# Enable simple gradle caching
+org.gradle.caching=true
 
 android.useAndroidX=true
 android.enableJetifier=true
